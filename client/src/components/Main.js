@@ -1,27 +1,15 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import About from './About'
+import Home from './Home'
+import Skills from './Skills'
 
 function Main() {
   	return (
-		  <main className="main">
-			  <section className="home section" id="home">
-				  <div className="home__container container grid">
-					  <div className="home__container grid">
-						  <div className="home__social">
-						  	  <a href="" className="home__social-icon">
-								  <FontAwesomeIcon icon="fa-brands fa-linkedin" />								  
-							  </a>
-							  <a href="" className="home__social-icon">
-								  <FontAwesomeIcon icon="fa-brands fa-dribbble" />
-							  </a>							
-							  <a href="" className="home__social-icon">		
-							  	  <FontAwesomeIcon icon="fa-brands fa-github" />						  
-							  </a>
-						  </div>
-					  </div>
-				  </div>
-			  </section>
-		  </main>
+		<main className="main">
+			<Home />
+			<About />
+			<Skills />		
+		</main>
   	)
 }
 
