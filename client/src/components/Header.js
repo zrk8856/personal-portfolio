@@ -15,7 +15,7 @@ function Header() {
     return (
         <header className="header" id="header">
             <nav className="nav container">
-                <a href="#" className="nav__logo">Alexa</a>
+                <a href="#" className="nav__logo">Ruokai</a>
                 <div className="nav__menu" id="nav-menu" ref={navMenuRef}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
