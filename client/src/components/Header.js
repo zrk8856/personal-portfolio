@@ -12,9 +12,6 @@ function Header() {
         navMenuRef.current.classList.remove('show-menu')
     }
 
-
-
-
     return (
         <header className="header" id="header">
             <nav className="nav container">
