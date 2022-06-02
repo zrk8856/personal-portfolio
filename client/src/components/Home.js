@@ -1,5 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faDribbble, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faComputerMouse, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import imagePerfil from '../images/perfil.png'
 
 function Home() {
@@ -9,13 +11,13 @@ function Home() {
                 <div className="home__content grid">
                     <div className="home__social">
                         <a href="" className="home__social-icon">
-                            <FontAwesomeIcon icon="fa-brands fa-linkedin" />								  
+                            <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
                         <a href="" className="home__social-icon">
-                            <FontAwesomeIcon icon="fa-brands fa-dribbble" />
+                            <FontAwesomeIcon icon={faDribbble} />
                         </a>							
                         <a href="" className="home__social-icon">		
-                            <FontAwesomeIcon icon="fa-brands fa-github" />						  
+                            <FontAwesomeIcon icon={faGithub} />						  
                         </a>
                     </div>
                     <div className="home__image">
@@ -42,15 +44,15 @@ function Home() {
                         <h3 className="home__subtitle">Fullstack developer</h3>
                         <p className="home__description">High level experience in web design and development knowledge, producing quality work.</p>
                         <a href="#contact" className="button button--flex">
-                            Contact Me <FontAwesomeIcon icon="fa-solid fa-envelope" className="button__icon" />
+                            Contact Me <FontAwesomeIcon icon={faEnvelope} className="button__icon" />
                         </a>
                     </div>
                 </div>
                 <div className="home__scroll">
                     <a href="about" className="home__scroll-button button--flex">
-                        <FontAwesomeIcon icon="fa-solid fa-computer-mouse" className="home__scroll-mouse" />
+                        <FontAwesomeIcon icon={faComputerMouse} className="home__scroll-mouse" />
                         <span className="home__scroll-name">Scroll down</span>
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-down" className="home__scroll-arrow" />
+                        <FontAwesomeIcon icon={faArrowDown} className="home__scroll-arrow" />
                     </a>
                 </div>
             </div>

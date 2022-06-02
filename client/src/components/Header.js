@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse, faUser, faFileLines, faBriefcase, faImage, faEnvelope, faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     const navMenuRef = useRef(null)
@@ -20,40 +21,40 @@ function Header() {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-house" className="nav__icon" /> Home
+                                <FontAwesomeIcon icon={faHouse} className="nav__icon" /> Home
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#about" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-user" className="nav__icon" /> About                                
+                                <FontAwesomeIcon icon={faUser} className="nav__icon" /> About                                
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#skills" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-file-lines" className="nav__icon" /> Skills                                
+                                <FontAwesomeIcon icon={faFileLines} className="nav__icon" /> Skills                                
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#services" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-briefcase" className="nav__icon" /> Services                                
+                                <FontAwesomeIcon icon={faBriefcase} className="nav__icon" /> Services                                
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#portfolio" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-image" className="nav__icon" /> Portfolio                                
+                                <FontAwesomeIcon icon={faImage} className="nav__icon" /> Portfolio                                
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#contact" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon="fa-solid fa-envelope" className="nav__icon" /> Contact Me                                
+                                <FontAwesomeIcon icon={faEnvelope} className="nav__icon" /> Contact Me                                
                             </a>
                         </li>
                     </ul>
-                    <FontAwesomeIcon icon="fa-solid fa-xmark" className="nav__close" onClick={handleCloseClick} />
+                    <FontAwesomeIcon icon={faXmark} className="nav__close" onClick={handleCloseClick} />
                 </div>
                 <div className="nav__btns">
                     <div className="nav__toggle" id="nav-toggle" >
-                        <FontAwesomeIcon icon="fa-solid fa-bars" onClick={handleMenuClick} />
+                        <FontAwesomeIcon icon={faBars} onClick={handleMenuClick} />
                     </div>                    
                 </div>
             </nav>
