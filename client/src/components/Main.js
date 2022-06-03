@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Home from './Home'
 import Portfolio from './Portfolio'
+import ProjectInMind from './ProjectInMind'
 import Qualification from './Qualification'
 import Services from './Services'
 import Skills from './Skills'
@@ -15,6 +16,7 @@ function Main() {
 			<Qualification />
 			<Services />
 			<Portfolio />		
+			<ProjectInMind />
 		</main>
   	)
 }
