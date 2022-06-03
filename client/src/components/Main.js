@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About'
 import Home from './Home'
+import Qualification from './Qualification'
 import Skills from './Skills'
 
 function Main() {
@@ -8,7 +9,8 @@ function Main() {
 		<main className="main">
 			<Home />
 			<About />
-			<Skills />		
+			<Skills />
+			<Qualification />		
 		</main>
   	)
 }
