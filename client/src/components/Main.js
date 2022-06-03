@@ -1,7 +1,9 @@
 import React from 'react'
 import About from './About'
 import Home from './Home'
+import Portfolio from './Portfolio'
 import Qualification from './Qualification'
+import Services from './Services'
 import Skills from './Skills'
 
 function Main() {
@@ -10,7 +12,9 @@ function Main() {
 			<Home />
 			<About />
 			<Skills />
-			<Qualification />		
+			<Qualification />
+			<Services />
+			<Portfolio />		
 		</main>
   	)
 }
