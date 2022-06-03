@@ -1,11 +1,13 @@
 import React from 'react'
 import About from './About'
+import ContactMe from './ContactMe'
 import Home from './Home'
 import Portfolio from './Portfolio'
 import ProjectInMind from './ProjectInMind'
 import Qualification from './Qualification'
 import Services from './Services'
 import Skills from './Skills'
+import Testimonial from './Testimonial'
 
 function Main() {
   	return (
@@ -17,6 +19,8 @@ function Main() {
 			<Services />
 			<Portfolio />		
 			<ProjectInMind />
+			<Testimonial />
+			<ContactMe />
 		</main>
   	)
 }

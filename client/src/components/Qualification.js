@@ -8,14 +8,14 @@ function Qualification() {
     const workRef = useRef(null)
     const workButtonRef = useRef(null)
 
-    function handleEducationClick(e) {
+    function handleEducationClick() {
         workButtonRef.current.classList.remove('qualification__active')
         educationButtonRef.current.classList.add('qualification__active')
         workRef.current.classList.remove('qualification__active')
         educationRef.current.classList.add('qualification__active')
     }
 
-    function handleWorkClick(e) {
+    function handleWorkClick() {
         educationButtonRef.current.classList.remove('qualification__active')
         workButtonRef.current.classList.add('qualification__active')
         educationRef.current.classList.remove('qualification__active')

@@ -220,11 +220,12 @@ img {
 
 .nav__close {
   position: absolute;
-  right: 1.3rem;
-  bottom: 1.5rem;
+  padding: 1.5rem 1.3rem;
+  right: 0;
+  bottom: 0;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color)
+  color: var(--first-color);
 }
 
 .nav__close:hover {
@@ -343,6 +344,15 @@ img {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
   transition: 0.3s;
+}
+
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  background-color: #fff;
 }
 
 .button--flex {
@@ -527,9 +537,6 @@ img {
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
 }
-
-
-
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
@@ -759,12 +766,70 @@ img {
   background-color: var(--first-color);
 }
 
-
-
 /*==================== PROJECT IN MIND ====================*/
+.project {
+  text-align: center;
+}
 
+.project__bg {
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description {
+  color: #fff;
+}
+
+.project__img {
+  width: 232px;
+  justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial__data,
+.testimonial__header {
+  display: flex;
+}
+
+.testimonial__data {
+  justify-content: space-between;
+  margin-bottom: var(--mb-1);
+}
+
+.testimonial__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: var(--mb-0-75);
+}
+
+.testimonial__name {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.testimonial__client {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.testimonial__description {
+  margin-bottom: var(--mb-2-5);
+}
+
+.testimonial__icon-star {
+  color: var(--first-color);
+}
 
 
 /*==================== CONTACT ME ====================*/
