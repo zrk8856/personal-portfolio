@@ -19,15 +19,6 @@ export default function Skills() {
         skillsContentThreeRef.current.classList.toggle('skills__open')      
     }
 
-
-
-
-
-
-
-
-
-
     return (
         <section className="skills section" id="skills">
             <h2 className="section__title">Skills</h2>
@@ -38,7 +29,7 @@ export default function Skills() {
                     {/* ==================== SKILLS 1 ==================== */}
                     <div className="skills__content" ref={skillsContentOneRef}>
                         <div className="skills__header" onClick={handleSkillsContentOneClick}>
-                            <FontAwesomeIcon icon={faCode} className="skills__icon" />
+                            <FontAwesomeIcon icon={faCode} className="skills__icon skills__icon-code" />
 
                             <div>
                                 <h1 className="skills__title">Frontend developer</h1>

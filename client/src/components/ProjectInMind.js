@@ -13,7 +13,7 @@ function ProjectInMind() {
 						<h2 className="project__title">You have a new project</h2>
 						<p className="project__description">Contact me now and get a 30% discount on your new project.</p>
 						<a href="#contact" className="button button--flex button--white">
-							Contact Me
+							Contact
 							<FontAwesomeIcon icon={faEnvelope} className="project__icon button__icon" />
 						</a>
 					</div>

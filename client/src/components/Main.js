@@ -6,11 +6,12 @@ import Home from './Home'
 import Portfolio from './Portfolio'
 import ProjectInMind from './ProjectInMind'
 import Qualification from './Qualification'
+import ScrollTop from './ScrollTop'
 import Services from './Services'
 import Skills from './Skills'
 import Testimonial from './Testimonial'
 
-function Main() {
+function Main({ scrollTopRef }) {
   	return (
 		<main className="main">
 			<Home />
@@ -23,6 +24,7 @@ function Main() {
 			<Testimonial />
 			<ContactMe />
 			<Footer />
+			<ScrollTop scrollTopRef={scrollTopRef} />
 		</main>
   	)
 }

@@ -6,7 +6,7 @@ import ContactMeInput from './ContactMeInput'
 function ContactMe() {
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Contact Me</h2>
+            <h2 className="section__title">Contact</h2>
             <span className="section__subtitle">Get in touch</span>
 
             <div className="contact__container container grid">
@@ -28,7 +28,7 @@ function ContactMe() {
                     </div>
 
                     <div className="contact__information">
-                        <FontAwesomeIcon icon={faLocationDot} className="contact__icon" />
+                        <FontAwesomeIcon icon={faLocationDot} className="contact__icon contact__icon-location" />
                         <div>
                             <h3 className="contact__title">Location</h3>
                             <span className="contact__subtitle">Pittsburgh, PA</span>

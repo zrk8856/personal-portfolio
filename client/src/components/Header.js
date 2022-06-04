@@ -1,9 +1,11 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faUser, faFileLines, faBriefcase, faImage, faEnvelope, faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faUser, faFileLines, faBriefcase, faImage, faEnvelope, faXmark, faGrip, faSun } from '@fortawesome/free-solid-svg-icons'
+import { faMoon } from '@fortawesome/free-regular-svg-icons'
 
-function Header() {
+function Header({ headerRef }) {
     const navMenuRef = useRef(null)
+    const [icon, setIcon] = useState(faMoon)
 
     function handleMenuClick() {
         navMenuRef.current.classList.add('show-menu')
@@ -13,8 +15,18 @@ function Header() {
         navMenuRef.current.classList.remove('show-menu')
     }
 
+    function handleThemIconClick() {
+        if (icon === faMoon) {
+            setIcon(faSun)
+            document.body.classList.add('dark-theme')
+        } else {
+            setIcon(faMoon)
+            document.body.classList.remove('dark-theme')
+        }
+    }
+
     return (
-        <header className="header" id="header">
+        <header className="header" id="header" ref={headerRef}>
             <nav className="nav container">
                 <a href="#" className="nav__logo">Ruokai</a>
                 <div className="nav__menu" id="nav-menu" ref={navMenuRef}>
@@ -46,15 +58,17 @@ function Header() {
                         </li>
                         <li className="nav_item">
                             <a href="#contact" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon={faEnvelope} className="nav__icon" /> Contact Me                                
+                                <FontAwesomeIcon icon={faEnvelope} className="nav__icon" /> Contact                                
                             </a>
                         </li>
                     </ul>
                     <FontAwesomeIcon icon={faXmark} className="nav__close" onClick={handleCloseClick} />
                 </div>
                 <div className="nav__btns">
+                    <FontAwesomeIcon icon={icon} className="change-theme" id="theme-button" onClick={handleThemIconClick} />
+
                     <div className="nav__toggle" id="nav-toggle" >
-                        <FontAwesomeIcon icon={faBars} onClick={handleMenuClick} />
+                        <FontAwesomeIcon icon={faGrip} onClick={handleMenuClick} />
                     </div>                    
                 </div>
             </nav>

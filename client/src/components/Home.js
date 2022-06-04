@@ -44,12 +44,12 @@ function Home() {
                         <h3 className="home__subtitle">Fullstack developer</h3>
                         <p className="home__description">High level experience in web design and development knowledge, producing quality work.</p>
                         <a href="#contact" className="button button--flex">
-                            Contact Me <FontAwesomeIcon icon={faEnvelope} className="button__icon" />
+                            Contact <FontAwesomeIcon icon={faEnvelope} className="button__icon" />
                         </a>
                     </div>
                 </div>
                 <div className="home__scroll">
-                    <a href="about" className="home__scroll-button button--flex">
+                    <a href="#about" className="home__scroll-button button--flex">
                         <FontAwesomeIcon icon={faComputerMouse} className="home__scroll-mouse" />
                         <span className="home__scroll-name">Scroll down</span>
                         <FontAwesomeIcon icon={faArrowDown} className="home__scroll-arrow" />
