@@ -1,9 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
-import testimonial1 from '../images/testimonial1.jpg'
-import testimonial2 from '../images/testimonial2.jpg'
-import testimonial3 from '../images/testimonial3.jpg'
+import imageTestimonial1 from '../images/testimonial1.jpg'
+import imageTestimonial2 from '../images/testimonial2.jpg'
+import imageTestimonial3 from '../images/testimonial3.jpg'
 import { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -29,7 +29,7 @@ function Testimonial() {
                     <div className="testimonial__content">
                         <div className="testimonial__data">
                             <div className="testimonial__header">
-                                <img src={testimonial1} alt="" className="testimonial__img" />
+                                <img src={imageTestimonial1} alt="" className="testimonial__img" />
 
                                 <div>
                                     <h3 className="testimonial__name">Sara Smith</h3>
@@ -54,7 +54,7 @@ function Testimonial() {
                     <div className="testimonial__content">
                         <div className="testimonial__data">
                             <div className="testimonial__header">
-                                <img src={testimonial2} alt="" className="testimonial__img" />
+                                <img src={imageTestimonial2} alt="" className="testimonial__img" />
 
                                 <div>
                                     <h3 className="testimonial__name">Matt Robinson</h3>
@@ -79,7 +79,7 @@ function Testimonial() {
                     <div className="testimonial__content">
                         <div className="testimonial__data">
                             <div className="testimonial__header">
-                                <img src={testimonial3} alt="" className="testimonial__img" />
+                                <img src={imageTestimonial3} alt="" className="testimonial__img" />
 
                                 <div>
                                     <h3 className="testimonial__name">Raul Harris</h3>

@@ -803,6 +803,14 @@ img {
   font-size: 2rem !important;
 }
 
+.swiper-button-prev::after {
+  margin-right: 1.9rem;;
+}
+
+.swiper-button-next::after {
+  margin-left: 1.9rem;
+}
+
 .swiper-horizontal>.swiper-pagination-bullets, 
 .swiper-pagination-bullets.swiper-pagination-horizontal, 
 .swiper-pagination-custom, 
@@ -1134,14 +1142,6 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
-  }
-
-  .swiper-button-prev::after {
-    margin-right: 1.9rem;;
-  }
-  
-  .swiper-button-next::after {
-    margin-left: 1.9rem;
   }
 }
 

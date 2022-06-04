@@ -20,8 +20,8 @@ function Main({ scrollTopRef }) {
 			<Qualification />
 			<Services />
 			<Portfolio />		
-			<ProjectInMind />
-			<Testimonial />
+			{/* <ProjectInMind /> */}
+			{/* <Testimonial /> */}
 			<ContactMe />
 			<Footer />
 			<ScrollTop scrollTopRef={scrollTopRef} />

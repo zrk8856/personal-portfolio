@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import imageAbout from '../images/about.jpg'
-import CV from '../images/Alexa-Cv.pdf'
+import resume from '../images/Ruokai-CV.pdf'
 
 function About() {
     return (
@@ -30,7 +30,7 @@ function About() {
                         </div>
                     </div>
                     <div className="about__buttons">
-                        <a href={CV} className="button button--flex">
+                        <a href={resume} className="button button--flex">
                             Download CV<FontAwesomeIcon icon={faDownload} className="button__icon" />
                         </a>
                     </div>

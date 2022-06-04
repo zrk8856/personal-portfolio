@@ -1,9 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import portfolio1 from '../images/portfolio1.jpg'
-import portfolio2 from '../images/portfolio2.jpg'
-import portfolio3 from '../images/portfolio3.jpg'
+import imagePortfolio1 from '../images/portfolio1.jpg'
+import imagePortfolio2 from '../images/portfolio2.jpg'
+import imagePortfolio3 from '../images/portfolio3.jpg'
 import { Navigation, Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -28,7 +28,7 @@ function Portfolio() {
                     <SwiperSlide>
                         {/* ==================== PORTFOLIO 1 ==================== */}
                         <div className="portfolio__content grid">
-                            <img src={portfolio1} alt="" className="portfolio__img" />
+                            <img src={imagePortfolio1} alt="" className="portfolio__img" />
 
                             <div className="portfolio__data">
                                 <h3 className="portfolio__title">Modern Website</h3>
@@ -44,7 +44,7 @@ function Portfolio() {
                     <SwiperSlide>
                         {/* ==================== PORTFOLIO 2 ==================== */}
                         <div className="portfolio__content grid">
-                            <img src={portfolio2} alt="" className="portfolio__img" />
+                            <img src={imagePortfolio2} alt="" className="portfolio__img" />
 
                             <div className="portfolio__data">
                                 <h3 className="portfolio__title">Brand Design</h3>
@@ -60,7 +60,7 @@ function Portfolio() {
                     <SwiperSlide>
                         {/* ==================== PORTFOLIO 3 ==================== */}
                         <div className="portfolio__content grid">
-                            <img src={portfolio3} alt="" className="portfolio__img" />
+                            <img src={imagePortfolio3} alt="" className="portfolio__img" />
 
                             <div className="portfolio__data">
                                 <h3 className="portfolio__title">Online Store</h3>
