@@ -28,7 +28,7 @@ function Header({ headerRef }) {
     return (
         <header className="header" id="header" ref={headerRef}>
             <nav className="nav container">
-                <a href="#" className="nav__logo">Ruokai</a>
+                <a href="#home" className="nav__logo">Ruokai</a>
                 <div className="nav__menu" id="nav-menu" ref={navMenuRef}>
                     <ul className="nav__list grid">
                         <li className="nav__item">

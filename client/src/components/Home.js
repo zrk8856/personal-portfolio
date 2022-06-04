@@ -10,13 +10,13 @@ function Home() {
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
-                        <a href="" className="home__social-icon">
+                        <a href="#" className="home__social-icon">
                             <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
-                        <a href="" className="home__social-icon">
+                        <a href="#" className="home__social-icon">
                             <FontAwesomeIcon icon={faDribbble} />
                         </a>							
-                        <a href="" className="home__social-icon">		
+                        <a href="#" className="home__social-icon">		
                             <FontAwesomeIcon icon={faGithub} />						  
                         </a>
                     </div>

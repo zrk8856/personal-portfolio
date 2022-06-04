@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope, faLocationDot, faMessage } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import ContactMeInput from './ContactMeInput'
 
 function ContactMe() {

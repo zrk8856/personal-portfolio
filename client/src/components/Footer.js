@@ -25,15 +25,15 @@ function Footer() {
                     </ul>
 
                     <div className="footer__socials">
-                        <a href="https://www.facebook.com" target="_blank" className="footer__social">
+                        <a href="https://www.facebook.com" className="footer__social">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
 
-                        <a href="https://www.instagram.com" target="_blank" className="footer__social">
+                        <a href="https://www.instagram.com" className="footer__social">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
 
-                        <a href="https://www.twitter.com" target="_blank" className="footer__social">
+                        <a href="https://www.twitter.com" className="footer__social">
                             <FontAwesomeIcon icon={faInstagram} />                            
                         </a>
                     </div>
