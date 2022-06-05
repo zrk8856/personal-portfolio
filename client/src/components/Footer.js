@@ -1,5 +1,5 @@
 import React from 'react'
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer__container container grid">
                     <div>
                         <h1 className="footer__title">Ruokai</h1>
-                        <span className="footer__subtitle">Frontend Developer</span>
+                        <span className="footer__subtitle">Fullstack Developer</span>
                     </div>
 
                     <ul className="footer__links">
@@ -25,16 +25,16 @@ function Footer() {
                     </ul>
 
                     <div className="footer__socials">
-                        <a href="https://www.facebook.com" className="footer__social">
-                            <FontAwesomeIcon icon={faFacebook} />
+                        <a href="https://github.com/zrk8856" className="footer__social">
+                            <FontAwesomeIcon icon={faGithub} />
                         </a>
 
-                        <a href="https://www.instagram.com" className="footer__social">
-                            <FontAwesomeIcon icon={faTwitter} />
+                        <a href="https://www.linkedin.com/in/ruokaizhao/" className="footer__social">
+                            <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
 
-                        <a href="https://www.twitter.com" className="footer__social">
-                            <FontAwesomeIcon icon={faInstagram} />                            
+                        <a href="https://medium.com/@lelouch_l" className="footer__social">
+                            <FontAwesomeIcon icon={faMedium} />                            
                         </a>
                     </div>
                 </div>

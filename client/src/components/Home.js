@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faDribbble, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faComputerMouse, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import imagePerfil from '../images/perfil.png'
 
@@ -10,15 +10,15 @@ function Home() {
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
-                        <a href="#" className="home__social-icon">
-                            <FontAwesomeIcon icon={faLinkedinIn} />
-                        </a>
-                        <a href="#" className="home__social-icon">
-                            <FontAwesomeIcon icon={faDribbble} />
-                        </a>							
-                        <a href="#" className="home__social-icon">		
+                        <a href="https://github.com/zrk8856" className="home__social-icon">		
                             <FontAwesomeIcon icon={faGithub} />						  
                         </a>
+                        <a href="https://www.linkedin.com/in/ruokaizhao/" className="home__social-icon">
+                            <FontAwesomeIcon icon={faLinkedinIn} />
+                        </a>
+                        <a href="https://medium.com/@lelouch_l" className="home__social-icon">
+                            <FontAwesomeIcon icon={faMedium} />
+                        </a>							
                     </div>
                     <div className="home__image">
                         {/* User camel case xmlnsXlink instead of xmlnx:xlink so that React knows how to compile it. */}
@@ -42,7 +42,7 @@ function Home() {
                     <div className="home__data">
                         <h1 className="home__title">Hi I'm Ruokai</h1>
                         <h3 className="home__subtitle">Fullstack developer</h3>
-                        <p className="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+                        <p className="home__description">High level experience in Frontend and Backend development, producing quality work.</p>
                         <a href="#contact" className="button button--flex">
                             Contact <FontAwesomeIcon icon={faEnvelope} className="button__icon" />
                         </a>

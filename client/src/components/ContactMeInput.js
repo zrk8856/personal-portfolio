@@ -48,7 +48,8 @@ function ContactMeInput() {
                 <div className="contact__content">
                     <label htmlFor="name" className="contact__label">Name</label>
                     <input type="text" id="name" className="contact__input" name="name" value={formik.values.name} onBlur={formik.handleBlur} onChange={formik.handleChange} />
-                </div>                
+                </div> 
+                               
                 <div className="contact__content">
                     <label htmlFor="email" className="contact__label">Email</label>
                     <input type="email" id="email" className="contact__input" name="email" value={formik.values.email} onBlur={formik.handleBlur} onChange={formik.handleChange} />
@@ -56,16 +57,19 @@ function ContactMeInput() {
             </div>
             {formik.touched.name && formik.errors.name && <div className="errors">{formik.errors.name}</div>}
             {formik.touched.email && formik.errors.email && <div className="errors">{formik.errors.email}</div>}
+
             <div className="contact__content">
                 <label htmlFor="subject" className="contact__label">Subject</label>
                 <input type="text" id="subject" className="contact__input" name="subject" value={formik.values.subject} onBlur={formik.handleBlur} onChange={formik.handleChange} />
             </div>
+
             <div className="contact__content">
                 <label htmlFor="message" className="contact__label">Message</label>
                 <textarea id="message" cols="" rows="7" className="contact__input" name="message" value={formik.values.message} onBlur={formik.handleBlur} onChange={formik.handleChange} />
             </div>
             {formik.touched.message && formik.errors.message && <div className="errors">{formik.errors.message}</div>}
             {isSubmitted && <h3 className="submit-response">Your message has been sent, I will get back to you as soon as possible, thank you for your interest.</h3>}
+            
             <div>
                 <button type="submit" className="button button--flex button--flex-submit" >
                     Send Message

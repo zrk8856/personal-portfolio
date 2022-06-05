@@ -14,14 +14,18 @@ function About() {
                 <img src={imageAbout} alt="" className="about__img" />
 
                 <div className="about__data">
-                    <p className="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                    <p className="about__description">Full Stack Developer with experience
+                     using frontend and backend technologies such as Ruby, Rails, Node, 
+                     JavaScript, and React. Passionate about learning new things and staying
+                      current with the technology.
+                    </p>
                     <div className="about__info">
                         <div>
                             <span className="about__info-title">08+</span>
                             <span className="about__info-name">Years <br/> experience</span>
                         </div>
                         <div>
-                            <span className="about__info-title">20+</span>
+                            <span className="about__info-title">10+</span>
                             <span className="about__info-name">Completed <br/> project</span>
                         </div>
                         <div>

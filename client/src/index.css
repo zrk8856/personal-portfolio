@@ -108,7 +108,7 @@ body.dark-theme {
 }
 
 .errors {
-  color: var(--first-color-alt);
+  color: red;
 }
 
 html {
