@@ -58,6 +58,7 @@ function PortfolioOne() {
                         Integrated ActionCable into the app allowing users to chat with each other and get notified in real time.                                    
                     </li>
                 </ul>
+                <div className="portfolio-detail__divider" />
                 <div className="portfolio-detail__links">
                     <a href="https://github.com/zrk8856/dating-app" className="button button--flex button--small portfolio__button">
                         GitHub Repo

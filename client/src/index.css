@@ -828,12 +828,12 @@ img {
 }
 
 .portfolio-detail__container {
-  max-width: 1024px;
+  max-width: 700px;
 }
 
 .portfolio-detail__img {
   margin-top: 1rem;
-  padding: 5rem 5rem 0 5rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .portfolio-detail__img-img {
@@ -872,10 +872,16 @@ img {
   margin: 0.25rem 0;
 }
 
+.portfolio-detail__divider {
+  width: 85%;
+  border-top: 1px solid rgb(180, 180, 180)
+}
+
 .portfolio-detail__links {
   display: flex;
-  justify-content: space-between;
-  width: 85%;
+  flex-direction: column;
+  gap: 1rem;
+  width: 65%;
   margin-bottom: 5rem;
 }
 
@@ -1154,6 +1160,10 @@ img {
     width: 200px;
   }
 
+  .portfolio-detail__links {
+    width: 100%;    
+  }
+
   .testimonial__data,
   .testimonial__header {
     flex-direction: column;
@@ -1198,6 +1208,17 @@ img {
     display: grid;
     grid-template-columns: 0.8fr;
     justify-content: center;
+  }
+
+  .portfolio-detail__img {
+    padding: 3rem 3rem 0 3rem;
+  }
+
+  .portfolio-detail__links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
   }
 }
 
@@ -1328,6 +1349,10 @@ img {
     align-items: center;
   }
 
+  .portfolio-detail__links {
+    width: 85%;
+  }
+
   .project {
     text-align: initial;
   }
@@ -1392,6 +1417,14 @@ img {
 
   .portfolio__content {
     column-gap: 0;
+  }
+
+  .portfolio-detail__container {
+    max-width: 960px;
+  }
+
+  .portfolio-detail__img {
+    padding: 5rem 5rem 0 5rem;
   }
 
   .contact__form {
