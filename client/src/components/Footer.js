@@ -9,12 +9,15 @@ function Footer() {
                 <div className="footer__container container grid">
                     <div>
                         <h1 className="footer__title">Ruokai</h1>
-                        <span className="footer__subtitle">Fullstack Developer</span>
+                        <span className="footer__subtitle">Full Stack Developer</span>
                     </div>
 
                     <ul className="footer__links">
                         <li>
-                            <a href="#services" className="footer__link">Services</a>
+                            <a href="#skills" className="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#qualification" className="footer__link">Qualification</a>
                         </li>
                         <li>
                             <a href="#portfolio" className="footer__link">Portfolio</a>
@@ -38,7 +41,7 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <p className="footer__copy">&#169; Ruokai. All right reserved</p>
+                <p className="footer__copy">&#169; Ruokai. All rights reserved</p>
             </div>
         </footer>
     )

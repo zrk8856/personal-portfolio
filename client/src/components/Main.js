@@ -18,7 +18,7 @@ function Main({ scrollTopRef }) {
 			<About />
 			<Skills />
 			<Qualification />
-			<Services />
+			{/* <Services /> */}
 			<Portfolio />		
 			{/* <ProjectInMind /> */}
 			{/* <Testimonial /> */}

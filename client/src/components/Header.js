@@ -47,8 +47,8 @@ function Header({ headerRef }) {
                             </a>
                         </li>
                         <li className="nav_item">
-                            <a href="#services" className="nav__link" onClick={handleCloseClick}>
-                                <FontAwesomeIcon icon={faBriefcase} className="nav__icon" /> Services                                
+                            <a href="#qualification" className="nav__link" onClick={handleCloseClick}>
+                                <FontAwesomeIcon icon={faBriefcase} className="nav__icon" /> Qualification                                
                             </a>
                         </li>
                         <li className="nav_item">
