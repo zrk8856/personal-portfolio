@@ -314,6 +314,7 @@ img {
 }
 
 .home__blob-img {
+  transform: scale(1.4);
   width: 170px;
 }
 

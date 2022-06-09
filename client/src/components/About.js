@@ -19,7 +19,7 @@ function About() {
                      JavaScript, and React. Passionate about learning new things and staying
                       current with the technology.
                     </p>
-                    <div className="about__info">
+                    {/* <div className="about__info">
                         <div>
                             <span className="about__info-title">08+</span>
                             <span className="about__info-name">Years <br/> experience</span>
@@ -32,7 +32,7 @@ function About() {
                             <span className="about__info-title">05+</span>
                             <span className="about__info-name">Companies <br/> worked</span>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="about__buttons">
                         <a href={resume} className="button button--flex">
                             Download CV<FontAwesomeIcon icon={faDownload} className="button__icon" />
