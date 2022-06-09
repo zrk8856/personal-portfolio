@@ -30,7 +30,7 @@ function App() {
 				scrollTopRef.current.classList.remove('show-scroll')
 			}
 		})
-	})
+	}, [])
 
 	return (
   		<BrowserRouter>
