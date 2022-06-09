@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faUser, faFileLines, faBriefcase, faImage, faEnvelope, faXmark, faGrip, faSun } from '@fortawesome/free-solid-svg-icons'
 import { faMoon } from '@fortawesome/free-regular-svg-icons'
+import { HashLink as Link } from 'react-router-hash-link'
 
 function Header({ headerRef }) {
     const navMenuRef = useRef(null)
@@ -28,38 +29,38 @@ function Header({ headerRef }) {
     return (
         <header className="header" id="header" ref={headerRef}>
             <nav className="nav container">
-                <a href="#home" className="nav__logo">Ruokai</a>
+                <Link to="/#home" className="nav__logo">Ruokai</Link>
                 <div className="nav__menu" id="nav-menu" ref={navMenuRef}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#home" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faHouse} className="nav__icon" /> Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="#about" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#about" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faUser} className="nav__icon" /> About                                
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="#skills" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#skills" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faFileLines} className="nav__icon" /> Skills                                
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="#qualification" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#qualification" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faBriefcase} className="nav__icon" /> Qualification                                
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="#portfolio" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#portfolio" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faImage} className="nav__icon" /> Portfolio                                
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav_item">
-                            <a href="#contact" className="nav__link" onClick={handleCloseClick}>
+                            <Link to="/#contact" className="nav__link" onClick={handleCloseClick}>
                                 <FontAwesomeIcon icon={faEnvelope} className="nav__icon" /> Contact                                
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <FontAwesomeIcon icon={faXmark} className="nav__close" onClick={handleCloseClick} />
