@@ -2,8 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import imagePortfolio1 from '../images/portfolio1.png'
-import imagePortfolio2 from '../images/portfolio2.jpg'
-import imagePortfolio3 from '../images/portfolio3.jpg'
+import imagePortfolio2 from '../images/portfolio2.png'
+import imagePortfolio3 from '../images/portfolio3.png'
 import { Navigation, Pagination, A11y } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
@@ -33,7 +33,7 @@ function Portfolio() {
 
                             <div className="portfolio__data">
                                 <h3 className="portfolio__title">Dating App</h3>
-                                <p className="portfolio__description">A dating app allowing users to view 
+                                <p className="portfolio__description">A screen size adaptive dating app allowing users to view 
                                     other users' profiles, chat with matched users and get notifications in real time.  
                                 </p>
                                 <Link to="/portfolio-1" className="button button--flex button--small portfolio__button">
@@ -50,12 +50,14 @@ function Portfolio() {
                             <img src={imagePortfolio2} alt="" className="portfolio__img" />
 
                             <div className="portfolio__data">
-                                <h3 className="portfolio__title">Brand Design</h3>
-                                <p className="portfolio__description">Website adaptable to all devices, with ui components and animated interactions</p>
-                                <a href="#" className="button button--flex button--small portfolio__button">
-                                    Demo
+                                <h3 className="portfolio__title">Shopping App</h3>
+                                <p className="portfolio__description">A modern shopping website allowing users to 
+                                    browse and review various items, add items to cart and checkout.
+                                </p>
+                                <Link to="/portfolio-2" className="button button--flex button--small portfolio__button">
+                                    See Details
                                     <FontAwesomeIcon icon={faArrowRight} className="button__icon" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -66,12 +68,14 @@ function Portfolio() {
                             <img src={imagePortfolio3} alt="" className="portfolio__img" />
 
                             <div className="portfolio__data">
-                                <h3 className="portfolio__title">Online Store</h3>
-                                <p className="portfolio__description">Website adaptable to all devices, with ui components and animated interactions</p>
-                                <a href="#" className="button button--flex button--small portfolio__button">
-                                    Demo
+                                <h3 className="portfolio__title">Marvel Movie Dashboard</h3>
+                                <p className="portfolio__description">An app utilizing a public API to fetch and display 
+                                    detailed information about released and unreleased Marvel movies.
+                                </p>
+                                <Link to="/portfolio-3" className="button button--flex button--small portfolio__button">
+                                    See Details
                                     <FontAwesomeIcon icon={faArrowRight} className="button__icon" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </SwiperSlide>

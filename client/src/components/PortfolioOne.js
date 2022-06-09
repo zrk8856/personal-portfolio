@@ -1,9 +1,9 @@
 import React from 'react'
 import { Navigation, Pagination, A11y } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import imagePortfolio1 from '../images/portfolio1-1.png'
-import imagePortfolio11 from '../images/portfolio1-2.gif'
-import imagePortfolio12 from '../images/portfolio1-3.gif'
+import imagePortfolio11 from '../images/portfolio1-1.png'
+import imagePortfolio12 from '../images/portfolio1-2.gif'
+import imagePortfolio13 from '../images/portfolio1-3.gif'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -23,25 +23,25 @@ function PortfolioOne() {
             >
                 <SwiperSlide>
                     <div className="portfolio-detail__img">                        
-                        <img src={imagePortfolio1} alt="" className="portfolio-detail__img-img" />                            
+                        <img src={imagePortfolio11} alt="" className="portfolio-detail__img-img" />                            
                     </div>
-                    <h2 className="section__title portfolio-detail-title">Signup page</h2>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="portfolio-detail__img">                        
-                        <img src={imagePortfolio11} alt="" className="portfolio-detail__img-img" />
-                    </div>
-                    <h2 className="section__title portfolio-detail-title">Matching</h2>
+                    <h2 className="section__title portfolio-detail-title">Signup Page</h2>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="portfolio-detail__img">                        
                         <img src={imagePortfolio12} alt="" className="portfolio-detail__img-img" />
                     </div>
+                    <h2 className="section__title portfolio-detail-title">Matching</h2>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="portfolio-detail__img">                        
+                        <img src={imagePortfolio13} alt="" className="portfolio-detail__img-img" />
+                    </div>
                     <h2 className="section__title portfolio-detail-title">Chating</h2>
                 </SwiperSlide>
             </Swiper>
             <div className="portfolio-detail__body">
-                <p className="section__subtitle portfolio-detail-subtitle">A dating app allowing users to view 
+                <p className="section__subtitle portfolio-detail-subtitle">A screen size adaptive dating app allowing users to view 
                     other users' profiles, chat with matched users and get notifications in real time.
                 </p>
                 <ul className="portfolio-detail__ul">
