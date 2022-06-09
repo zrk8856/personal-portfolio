@@ -75,7 +75,7 @@ function PortfolioOne() {
                         Deployed Version
                         <FontAwesomeIcon icon={faArrowRight} className="button__icon" />
                     </a>
-                    <a href="/portfolio-1" className="button button--flex button--small portfolio__button">
+                    <a href="https://drive.google.com/file/d/1Zaeo4PP_FPEsd1DRSmQhSGXXtmYHGmAV/view?usp=sharing" className="button button--flex button--small portfolio__button">
                         Video Demo
                         <FontAwesomeIcon icon={faArrowRight} className="button__icon" />
                     </a>
