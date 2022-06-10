@@ -33,7 +33,7 @@ function About() {
                         </div>
                     </div> */}
                     <div className="about__buttons">
-                        <a href="https://drive.google.com/file/d/1tfdoznq4tWyfXVa7Gr0Kw7CBXb_f_bsI/view?usp=sharing" className="button button--flex">
+                        <a href="https://drive.google.com/file/d/1RZGKf5gQuQK12b07RrMFijhprIuydY1V/view?usp=sharing" className="button button--flex">
                             Download CV<FontAwesomeIcon icon={faDownload} className="button__icon" />
                         </a>
                     </div>
