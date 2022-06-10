@@ -316,6 +316,12 @@ img {
 .home__blob-img {
   transform: scale(1.4);
   width: 170px;
+  transition: 0.3s ease-in-out;
+}
+
+.home__blob-img:hover {
+  transform: scale(1.8);
+  
 }
 
 .home__data {
