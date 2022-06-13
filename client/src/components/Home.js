@@ -41,7 +41,7 @@ function Home() {
                     </div>
                     <div className="home__data">
                         <h1 className="home__title">Hi I'm Ruokai</h1>
-                        <h3 className="home__subtitle">Fullstack Developer</h3>
+                        <h3 className="home__subtitle">Full Stack Developer</h3>
                         <p className="home__description">High level experience in Frontend and Backend development, producing quality work.</p>
                         <a href="#contact" className="button button--flex">
                             Contact <FontAwesomeIcon icon={faEnvelope} className="button__icon" />
